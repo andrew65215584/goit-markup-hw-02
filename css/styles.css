@@ -1,0 +1,88 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #ffffff;
+}
+    
+  
+
+.list {
+    list-style: none;
+  }
+
+
+/* site nav */
+
+.site-nav{
+    color: var(--primary-text-color);
+}
+
+.site-nav .logo:hover,
+.site-nav .logo:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+
+    color: var(--accent-color);
+}
+
+.site-nav .contacts:hover,
+.site-nav .contacts:focus {
+
+    color: var(--accent-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.section .text {
+color: var(--primary-text-color);
+}
+
+.text {
+color: #757575;;
+}
+
+
+/* benefits */
+
+.benefits {
+    color: var(--title-text-color);
+}
+
+.benefits .images:hover,
+.benefits .images:focus{
+
+    color: var(--accent-color);
+}
+
+
+/* social links */
+
+.social-links:hover,
+.social-links:focus{
+
+    color: var(--accent-color);
+}
+
+/* button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+  }
+  
+  .button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+  
+  .button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+  }
