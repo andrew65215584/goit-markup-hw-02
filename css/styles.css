@@ -3,9 +3,18 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --background-color: #ffffff;
+    --secondary-background-color: #F5F4FA;
 }
     
-  
+body{
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+    font-size: 16px;
+    line-height: 1.19;
+
+    background-color: var(--background-color);
+}
 
 .list {
     list-style: none;
@@ -17,6 +26,27 @@
 
 .site-nav{
     color: var(--primary-text-color);
+    
+
+}
+
+.site-nav .link{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    
+}
+
+.logo{
+
+    color: var(--title-text-color);
+
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
 }
 
 .site-nav .logo:hover,
@@ -36,19 +66,55 @@
     color: var(--accent-color);
 }
 
+.site-nav .contacts {
+  
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+
+}
+
+
 /* section */
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.our-team {
+    background-color: var(--secondary-background-color);
+}
+
+.section .hero-title {
+    
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+
+text-align: center;
+text-transform: uppercase;
+}
 
 .section-title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    text-align: center;
+
 }
 
 .section .text {
 color: var(--primary-text-color);
+
+font-size: 16px;
+line-height: 1.18;
 }
 
-.text {
-color: #757575;;
-}
 
 
 
@@ -58,33 +124,70 @@ color: #757575;;
     color: var(--title-text-color);
 }
 
-.benefits .images:hover,
-.benefits .images:focus{
+.benefits .benefits-title {
+    
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
 
-    color: var(--accent-color);
+text-transform: uppercase;
+
+}
+
+.benefits .text {
+    
+font-size: 14px;
+line-height: 1.71px;
+
+}
+
+
+/* works */
+.section .works-title{
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    text-transform: uppercase;
 }
 
 
 /* social links */
 
+.social-links{
+
+    list-style: none;
+    text-decoration: none ;
+}
+
 .social-links:hover,
 .social-links:focus{
+    list-style: none;
+    text-decoration: none ;
 
     color: var(--accent-color);
 }
 
 /* button */
 .button {
+    
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
   }
   
-  .button.primary {
-    color: var(--primary-white-color);
+  .button-primary {
+    color: var(--background-color);
     background-color: var(--accent-color);
   }
   
-  .button.secondary {
+  .button-secondary {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
   }
@@ -100,3 +203,41 @@ color: #757575;;
   .text-portfolio {
       color: var(--primary-text-color);
   }
+
+  /* footer */
+
+  .footer-logo {
+    font-family: Raleway;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
+
+  }
+
+  .footer-address {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+   
+}
+.footer-contacts{
+     
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+
+.call-to-action {
+  
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
