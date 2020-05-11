@@ -187,11 +187,13 @@ line-height: 1.71px;
   .button-primary {
     color: var(--background-color);
     background-color: var(--accent-color);
+    text-decoration: none;
   }
   
   .button-secondary {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
+    text-decoration: none;
   }
 
 
@@ -232,6 +234,7 @@ line-height: 1.71px;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 
 }
 
