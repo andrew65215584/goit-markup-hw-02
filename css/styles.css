@@ -200,6 +200,11 @@ line-height: 1.71px;
     text-decoration: none;
   }
 
+  .button-portfolio .button-secondary:hover,
+  .button-portfolio .button-secondary:focus {
+
+    color: var(--accent-color);
+  }
 
  
 
@@ -259,3 +264,5 @@ text-transform: uppercase;
 
     color: var(--accent-color);
   }
+
+  
