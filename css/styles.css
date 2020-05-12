@@ -201,16 +201,7 @@ line-height: 1.71px;
   }
 
 
-  /* css for portfolio */
-
-  .title-portfolio {
-
-    color: var(--title-text-color);
-  }
-
-  .text-portfolio {
-      color: var(--primary-text-color);
-  }
+ 
 
   /* footer */
 
@@ -251,3 +242,20 @@ line-height: 1.14;
 text-transform: uppercase;
 }
 
+
+ /* css for portfolio */
+
+ .title-portfolio {
+
+    color: var(--title-text-color);
+  }
+
+  .text-portfolio {
+      color: var(--primary-text-color);
+  }
+
+  .example .link:hover,
+  .example .link:focus {
+
+    color: var(--accent-color);
+  }
