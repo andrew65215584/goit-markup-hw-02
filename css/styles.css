@@ -203,7 +203,7 @@ line-height: 1.71px;
   .button-portfolio .button-secondary:hover,
   .button-portfolio .button-secondary:focus {
 
-    color: var(--accent-color);
+    color: #212121;
   }
 
  
